@@ -31,6 +31,7 @@ dependencies = [
     "xtb",
     "sphinx",
     "sphinx_rtd_theme",
+    "typing-extensions",
 ]
 
 # Update the urls once the hosting is set up.
@@ -95,3 +96,6 @@ file = "pyGSM/_version.py"
 
 [project.scripts]
 gsm = "pyGSM.bin.gsm:run_gsm"
+
+[tool.ruff.format]
+quote-style = "single"
